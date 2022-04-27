@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Tr">
         <activity
+            android:name=".kp"
+            android:exported="false" />
+        <activity
+            android:name=".sk"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
             android:name=".topup"
             android:exported="false" />
         <activity
