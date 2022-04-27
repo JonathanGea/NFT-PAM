@@ -9,7 +9,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class detail extends AppCompatActivity {
-    TextView name,price1,detail2;
+    TextView name,price1,detail2,pemilik;
     ImageView detial;
 
     @Override
@@ -21,10 +21,12 @@ public class detail extends AppCompatActivity {
         detial = findViewById(R.id.detail);
         detail2 = findViewById(R.id.detail1);
         price1 = findViewById(R.id.price1);
+        pemilik = findViewById(R.id.pemilik);
         Intent intent = getIntent();
         name.setText(intent.getStringExtra("nama"));
         price1.setText(intent.getStringExtra("harga"));
         detail2.setText(intent.getStringExtra("detail"));
+        pemilik.setText(intent.getStringExtra("pemilik"));
         detial.setImageResource(intent.getIntExtra("image1",0));
     }
 }

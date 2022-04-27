@@ -15,7 +15,7 @@ import androidx.fragment.app.Fragment;
 
 public class profile extends Fragment implements View.OnClickListener {
     private TextView User,coin;
-    private Button top;
+    private Button top,logout;
     String user;
     private View view;
 
@@ -29,6 +29,7 @@ public class profile extends Fragment implements View.OnClickListener {
         User = view.findViewById(R.id.user);
         coin = view.findViewById(R.id.coin);
         top = view.findViewById(R.id.buttonTop1);
+        logout = view.findViewById(R.id.logout);
         top.setOnClickListener(this);
         if(pi == null)
         {
@@ -58,5 +59,7 @@ public class profile extends Fragment implements View.OnClickListener {
             startActivity(intent);
         }
     }
+
+
 }
 

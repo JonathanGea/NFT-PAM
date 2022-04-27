@@ -1,5 +1,6 @@
 package com.sento.tr;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -27,6 +28,18 @@ public class fragment_main extends AppCompatActivity {
     }
     public void fr2(View v) {
         replaceFragment(new profile());
+    }
+    public void log1(View v) {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
+    public void syarat(View v) {
+        Intent intent = new Intent(this, sk.class);
+        startActivity(intent);
+    }
+    public void kebijakan(View v) {
+        Intent intent = new Intent(this, kp.class);
+        startActivity(intent);
     }
 
     private void replaceFragment(Fragment fragment) {
