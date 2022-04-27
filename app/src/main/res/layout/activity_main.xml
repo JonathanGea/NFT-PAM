@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginStart="-25dp"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -19,7 +20,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="80dp"
         android:layout_marginTop="50dp"
-        android:hint="Nama Pengguna"
+        android:hint="@string/user"
         android:inputType="text"
         android:textSize="8pt" />
 
@@ -30,7 +31,7 @@
         android:layout_height="48dp"
         android:layout_marginStart="80dp"
         android:layout_marginTop="50dp"
-        android:hint="Kata Sandi"
+        android:hint="@string/sandi"
         android:inputType="textPassword"
         android:textSize="8pt" />
 
@@ -50,6 +51,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="90dp"
-        android:text="Belum punya akun? Daftar Sekarang" />
+        android:text="@string/akun" />
+
+    <TextView android:id="@+id/buttonregister1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="4dp"
+        android:onClick="register1"
+        android:text="Register"
+        android:textColor="#FF03DAC5"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="412dp"/>
 
 </LinearLayout>

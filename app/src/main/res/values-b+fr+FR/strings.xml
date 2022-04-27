@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Jo-NFT</string>
+    <string name="bahasa">FR</string>
+    <string name="bahasa1">Langue</string>
+    <string name="profile">profil</string>
+    <string name="syarat">Termes et conditions</string>
+    <string name="kebijakan">politique de confidentialité</string>
+    <string name="harga">harga</string>
+    <string name="beli">acheter</string>
+    <string name="user">Nom d utilisateur</string>
+    <string name="sandi">le mot de passe</string>
+    <string name="sandic">Confirmez le mot de passe</string>
+    <string name="akun">Vous n avez pas encore de compte? s inscrire maintenant</string>
+    <string name="akun1">Vous avez déjà un compte? Connectez vous maintenant</string>
+</resources>

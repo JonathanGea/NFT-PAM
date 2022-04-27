@@ -23,7 +23,6 @@ langkah-langkah keamanan penting yang kami pertahankan untuk mengamankan data pr
 hak apa yang Anda miliki sehubungan dengan data pribadi yang kami miliki tentang Anda; dan
 alasan dan cara kami menyimpan data pribadi Anda."
         android:textSize="10pt" />
-
     <TextView
         android:layout_width="435dp"
         android:layout_height="56dp"

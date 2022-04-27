@@ -70,26 +70,37 @@
         android:layout_height="29dp"
         android:layout_marginStart="215dp"
         android:layout_marginTop="-27dp"
-        android:text="Price:"
+        android:text="@string/harga"
         android:textSize="8pt" />
-
     <TextView
+        android:id="@+id/pemilik"
         android:layout_width="113dp"
         android:layout_height="33dp"
         android:layout_marginStart="40dp"
         android:layout_marginTop="-30dp"
-        android:text="Pemilik: 3"
+        android:text="nama pemilik"
         android:textSize="8pt" />
 
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/beli" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
     <TextView
         android:id="@+id/detail1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="25dp"
         android:layout_marginEnd="25dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="14dp"
         android:textSize="10pt"
+        android:text="Buy"
         />
-
+    </ScrollView>
 
 </LinearLayout>

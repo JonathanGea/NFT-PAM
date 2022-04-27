@@ -3,33 +3,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:background="@drawable/bg"
+    android:orientation="vertical"
     android:layout_height="match_parent">
-
     <TextView
-        android:id="@+id/textView9"
-        android:layout_width="0dp"
-        android:layout_height="731dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+
+        android:text="Syarat dan Ketentuan"
+        android:textColor="@color/black"
+        android:textSize="15pt" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="80dp"
         android:layout_weight="1"
         android:text="Terima kasih telah memilih Jo-NFT. Syarat dan Ketentuan berikut serta kebijakan Privasi (bersama-sama disebut berlaku untuk setiap orang yang mendaftar dan/atau membuka Akun Jo-NFT melalui aplikasi seluler, situs web, atau API terkait (bersama-sama disebut 'Situs Jo-NFT'). Ketentuan ini merupakan perjanjian yang mengikat secara hukum antara Anda dan PT Jo-NFT Indonesia Ltd, yang merupakan perusahaan yang didirikan berdasarkan hukum di Indonesia. Untuk informasi lebih lanjut mengenai grup perusahaan Jo-NFT lainnya, silakan lihat halaman Informasi Perusahaan di situs web Jo-NFT. Untuk tujuan Ketentuan ini, setiap referensi pada 'kami' 'milik kami' 'Jo-NFT' dan/atau istilah serupa akan ditafsirkan sebagai referensi ke PT Jo-NFT Indonesia Ltd. Dengan mendaftar dan membuka Akun Jo-NFT, Anda menerima Ketentuan ini tanpa syarat dan setuju untuk terikat oleh dan bertindak sesuai ketentuan. Anda juga menerima dan menyetujui bahwa Anda sepenuhnya bertanggung jawab untuk memahami dan mematuhi semua undang-undang, aturan, regulasi, dan persyaratan yurisdiksi tempat Anda tinggal yang mungkin berlaku untuk penggunaan Situs Luno dan/atau Akun Luno Anda, termasuk namun tidak terbatas pada, hal-hal yang berkaitan dengan kegiatan ekspor atau impor, perpajakan, atau transaksi mata uang asing. Tergantung pada negara tempat tinggal Anda, Anda mungkin tidak dapat menggunakan semua fungsi pada Situs Jo-NFT. Harap baca Ketentuan ini dengan saksama sebelum menggunakan Situs Luno karena dapat memengaruhi hak dan kewajiban hukum Anda."
         android:textColor="@color/black"
         android:textSize="10pt" />
 
-    <TextView
-        android:layout_width="435dp"
-        android:layout_height="56dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="-440dp"
-        android:layout_marginTop="20dp"
-
-        android:text="           Syarat dan Ketentuan"
-        android:textColor="@color/black"
-        android:textSize="15pt" />
+    </ScrollView>
 
 </LinearLayout>

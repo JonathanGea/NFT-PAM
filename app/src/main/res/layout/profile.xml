@@ -59,7 +59,7 @@
         android:id="@+id/buttonTop1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="280dp"
+        android:layout_marginStart="250dp"
         android:layout_marginTop="100dp"
         android:layout_marginBottom="100dp"
         android:onClick="Topup1"
@@ -83,7 +83,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="230dp"
-        android:text="Edit Profil"
+        android:text="@string/profile"
         android:textSize="20dp"
         android:textStyle="bold" />
 
@@ -92,34 +92,46 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="280dp"
-        android:text="Ubah Bahasa"
+        android:text="@string/bahasa1"
         android:textSize="20dp"
         android:textStyle="bold" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="330dp"
-        android:layout_marginStart="20dp"
-        android:textStyle="bold"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="280dp"
+        android:text="@string/bahasa"
         android:textSize="20dp"
-        android:text="Syarat dan Ketentuan" />
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="330dp"
+        android:onClick="syarat"
+        android:text="@string/syarat"
+        android:textSize="20dp"
+        android:textStyle="bold" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="380dp"
-        android:text="Kebijakan Privasi"
+        android:text="@string/kebijakan"
+        android:onClick="kebijakan"
         android:textSize="20dp"
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/logout"
         android:layout_width="120dp"
         android:layout_height="50dp"
         android:layout_marginStart="155dp"
         android:layout_marginTop="530dp"
+        android:onClick="log1"
         android:text="Logout" />
 
     <ImageView
