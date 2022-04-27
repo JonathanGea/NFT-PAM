@@ -7,30 +7,49 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="410dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logo" />
+
     <EditText
         android:id="@+id/LoginUsername"
-        android:layout_width="match_parent"
+        android:layout_width="251dp"
         android:layout_height="wrap_content"
-        android:hint="username"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="50dp"
+        android:hint="Nama Pengguna"
         android:inputType="text"
-        android:textSize="15pt"/>
+        android:textSize="8pt" />
+
 
     <EditText
         android:id="@+id/loginPassword"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="password"
-        android:textSize="15pt"
-        android:inputType="textPassword"/>
-    
+        android:layout_width="253dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="50dp"
+        android:hint="Kata Sandi"
+        android:inputType="textPassword"
+        android:textSize="8pt" />
 
     <Button
         android:id="@+id/buttonLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="login"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="160dp"
         tools:layout_editor_absoluteX="158dp"
         tools:layout_editor_absoluteY="412dp"
         android:onClick="login2"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:text="Belum punya akun? Daftar Sekarang" />
 
 </LinearLayout>

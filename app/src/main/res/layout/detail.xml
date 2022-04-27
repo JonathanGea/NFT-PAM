@@ -1,49 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".detail">
+    tools:context=".detail"
+    android:background="@drawable/bg">
 
-    <TextView
-        android:id="@+id/name1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="105dp"
-        android:text="Apple"
-        android:textColor="@color/black"
-        android:textSize="15pt" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="243dp"
+        android:orientation="vertical">
 
         <TextView
-            android:id="@+id/detail1"
+            android:id="@+id/name1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="500dp"
-            android:text="Detail"
-            android:textSize="12pt" />
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="100dp"
+
+            android:text="Apple"
+            android:textColor="@color/black"
+            android:textSize="15pt" />
+
+        <ImageView
+            android:id="@+id/detail"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="500dp"
+            android:layout_marginTop="24dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ganyu" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="28dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/pi" />
 
     <TextView
         android:id="@+id/price1"
-        android:layout_width="wrap_content"
+        android:layout_width="49dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="310dp"
+        android:layout_marginTop="-30dp"
+        android:textSize="8pt" />
+
+    <TextView
+        android:layout_width="58dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="215dp"
+        android:layout_marginTop="-27dp"
+        android:text="Price:"
+        android:textSize="8pt" />
+
+    <TextView
+        android:layout_width="113dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="-30dp"
+        android:text="Pemilik: 3"
+        android:textSize="8pt" />
+
+    <TextView
+        android:id="@+id/detail1"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="130dp"
-        android:layout_marginTop="416dp"
-        android:text="Apple"
-        android:textSize="10pt" />
-
-    <ImageView
-        android:id="@+id/detail"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:src="@drawable/hutou"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="270dp"
- />
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="24dp"
+        android:textSize="10pt"
+        />
 
 
-</RelativeLayout>
+</LinearLayout>

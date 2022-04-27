@@ -4,8 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg"
     android:orientation="vertical"
     tools:context=".home">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tersingsal" />
 
     <GridView
         android:id="@+id/gridViewGallery"
@@ -17,10 +24,10 @@
         android:numColumns="2"
         android:columnWidth="172dp"
         android:horizontalSpacing="5dp"
-        android:verticalSpacing="5dp"
+        android:verticalSpacing="20dp"
         android:gravity="center"
         android:stretchMode="columnWidth"
-        android:background="#FFFFFF">
+        >
 
     </GridView>
 
